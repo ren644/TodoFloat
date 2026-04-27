@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+    <key>CFBundleExecutable</key>
+    <string>TodoFloat</string>
+    <key>CFBundleIdentifier</key>
+    <string>com.cola.todofloat</string>
+    <key>CFBundleName</key>
+    <string>TodoFloat</string>
+    <key>CFBundleDisplayName</key>
+    <string>待办悬浮窗</string>
+    <key>CFBundleVersion</key>
+    <string>2.0</string>
+    <key>CFBundleShortVersionString</key>
+    <string>2.0</string>
+    <key>CFBundlePackageType</key>
+    <string>APPL</string>
+    <key>LSMinimumSystemVersion</key>
+    <string>14.0</string>
+    <key>LSUIElement</key>
+    <true/>
+    <key>NSRemindersUsageDescription</key>
+    <string>TodoFloat 需要访问您的提醒事项以显示和管理待办。</string>
+    <key>NSCalendarsUsageDescription</key>
+    <string>TodoFloat 需要访问您的日历以显示日程。</string>
+    <key>NSCalendarsFullAccessUsageDescription</key>
+    <string>TodoFloat 需要完整日历访问权限以管理您的提醒事项。</string>
+    <key>NSRemindersFullAccessUsageDescription</key>
+    <string>TodoFloat 需要完整提醒事项访问权限以显示和管理待办。</string>
+</dict>
+</plist>
