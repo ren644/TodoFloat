@@ -35,3 +35,18 @@ open TodoFloat.app
 ## 技术栈
 
 Objective-C + AppKit + EventKit，单文件编译，无第三方依赖。
+
+---
+
+## Windows 版
+
+Windows 版位于 [`windows/`](windows/) 子目录，使用 Python + tkinter 实现，零第三方依赖。
+
+**功能对等：** 飞书待办表双向同步（lark-cli）、勾选完成写回、双击编辑写回、5分钟自动刷新、窗口置顶可拖动。数据源 1 用本地 JSON 文件替代苹果提醒事项（Windows 无 EventKit）。
+
+```bash
+cd windows
+python todofloat.py
+```
+
+详见 [windows/README.md](windows/README.md)。
